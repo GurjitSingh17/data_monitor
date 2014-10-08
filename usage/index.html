@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+
+<body>
+    {% for day in days %}
+        <p>{{day.date}},{{day.download}},{{day.upload}},{{day.total}}</p>
+    {% endfor %}
+</body>
+</html>
